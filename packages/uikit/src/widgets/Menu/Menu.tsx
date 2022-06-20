@@ -132,7 +132,8 @@ const Menu: React.FC<NavProps> = ({
           {banner && <TopBannerContainer height={topBannerHeight}>{banner}</TopBannerContainer>}
           <StyledNav>
             <Flex>
-              <Logo isDark={isDark} href={homeLink?.href ?? "/"} />
+           
+              <h4>Milkyswap</h4>
               {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />}
             </Flex>
             <Flex alignItems="center" height="100%">
