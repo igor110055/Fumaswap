@@ -54,7 +54,7 @@ function MyApp(props: AppProps) {
         />
        <title>Fumaswap</title>
        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Man-from-earth25/fiverr-milkyswap-website/milkyswap_config_1o1.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Man-from-earth25/fiverr-milkyswap-website/milkyswap_config_1o2.css"/>
        
       </Head>
       <Providers store={store}>
