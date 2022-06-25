@@ -1,3 +1,4 @@
+// imports
 import { useEffect, useCallback, useState, useMemo, useRef, createContext } from 'react'
 import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
@@ -27,6 +28,10 @@ import Table from './components/FarmTable/FarmTable'
 import FarmTabButtons from './components/FarmTabButtons'
 import { RowProps } from './components/FarmTable/Row'
 import { DesktopColumnSchema, FarmWithStakedValue } from './components/types'
+
+
+
+//Styles
 
 const ControlContainer = styled.div`
   display: flex;
@@ -115,7 +120,18 @@ const FinishedTextLink = styled(Link)`
   text-decoration: underline;
 `
 
+
+
+
+
+
+
 const NUMBER_OF_FARMS_VISIBLE = 12
+
+
+
+
+
 
 export const getDisplayApr = (cakeRewardsApr?: number, lpRewardsApr?: number) => {
   if (cakeRewardsApr && lpRewardsApr) {
@@ -138,7 +154,6 @@ const Farms: React.FC = ({ children }) => {
   const [sortOption, setSortOption] = useState('hot')
   const { observerRef, isIntersecting } = useIntersectionObserver()
   const chosenFarmsLength = useRef(0)
-
   const isArchived = pathname.includes('archived')
   const isInactive = pathname.includes('history')
   const isActive = !isInactive && !isArchived
@@ -205,10 +220,8 @@ const Farms: React.FC = ({ children }) => {
   }
 
   const [numberOfFarmsVisible, setNumberOfFarmsVisible] = useState(NUMBER_OF_FARMS_VISIBLE)
-
   const chosenFarmsMemoized = useMemo(() => {
     let chosenFarms = []
-
     const sortFarms = (farms: FarmWithStakedValue[]): FarmWithStakedValue[] => {
       switch (sortOption) {
         case 'apr':

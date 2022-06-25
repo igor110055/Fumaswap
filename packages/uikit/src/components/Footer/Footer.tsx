@@ -67,7 +67,8 @@ const MenuItem: React.FC<FooterProps> = ({
           ))}
           <Box display={["none", null, "block"]}>
             
-              <h4>Milkyswap</h4>
+              <h4 className="footer_logo">Fumaswap</h4>
+              
           </Box>
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />

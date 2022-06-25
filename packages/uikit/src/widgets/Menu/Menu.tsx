@@ -132,8 +132,8 @@ const Menu: React.FC<NavProps> = ({
           {banner && <TopBannerContainer height={topBannerHeight}>{banner}</TopBannerContainer>}
           <StyledNav>
             <Flex>
-           
-              <h4>Milkyswap</h4>
+              <img className="navbar_logo" src="https://cdn.jsdelivr.net/gh/Man-from-earth25/fiverr-milkyswap-website/fumaswap.png" alt="logo" />                              
+              <h4 className="navbar_logo_text">Fumaswap</h4>
               {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />}
             </Flex>
             <Flex alignItems="center" height="100%">

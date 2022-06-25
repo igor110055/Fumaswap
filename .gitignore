@@ -11,20 +11,6 @@ cypress/videos
 cypress/screenshots
 cypress/fixtures/example.json
 
-# next.js
-.next/
-out/
-.idea/
-
-# production
-build
-dist
-storybook-static
-
-# misc
-.DS_Store
-.eslintcache
-
 # local env files
 .env.local
 .env.development.local

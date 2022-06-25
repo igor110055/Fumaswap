@@ -52,7 +52,10 @@ function MyApp(props: AppProps) {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, viewport-fit=cover"
         />
-       <title>Milkiswap</title>
+       <title>Fumaswap</title>
+       
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Man-from-earth25/fiverr-milkyswap-website/milkyswap_config_1o1.css"/>
+       
       </Head>
       <Providers store={store}>
         <Blocklist>
