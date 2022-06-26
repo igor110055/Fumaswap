@@ -35,7 +35,8 @@ const Stats = () => {
 
   return (
     <Flex justifyContent="center" alignItems="center" flexDirection="column">
-      <GradientLogo height="48px" width="48px" mb="24px" />
+
+      <img className="navbar_logo" src="https://cdn.jsdelivr.net/gh/Man-from-earth25/fiverr-milkyswap-website/fumaswap.png" alt="l" />   
       <Heading textAlign="center" scale="xl">
         {t('Used by millions.')}
       </Heading>
@@ -43,7 +44,7 @@ const Stats = () => {
         {t('Trusted with billions.')}
       </Heading>
       <Text textAlign="center" color="textSubtle">
-        {t('PancakeSwap has the most users of any decentralized platform, ever.')}
+        {t('FumaSwap has the most users of any decentralized platform, ever.')}
       </Text>
       <Flex flexWrap="wrap">
         <Text display="inline" textAlign="center" color="textSubtle" mb="20px">
