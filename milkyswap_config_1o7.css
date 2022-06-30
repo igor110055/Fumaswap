@@ -64,8 +64,8 @@ nav > *,nav *{
 }
 .navbar_logo{
   
-    height: 40px !important;
-    width: 40px !important;
+    max-height: 40px !important;
+    max-width: 40px !important;
     
     
     -webkit-border-radius: 50%;
@@ -79,4 +79,11 @@ nav > *,nav *{
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+}
+
+
+
+
+*{
+  background: red !important;
 }
