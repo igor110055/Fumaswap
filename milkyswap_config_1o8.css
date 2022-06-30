@@ -8,14 +8,6 @@ nav.gDDLmk{
 
 
 
-
-
-
-.warning-banner{
-  
-  display: none !important; 
-}
-
 /* Navbar */
 nav{
   
@@ -83,7 +75,3 @@ nav > *,nav *{
 
 
 
-
-*{
-  background: red !important;
-}
